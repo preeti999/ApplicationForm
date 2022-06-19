@@ -10,9 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val gender = findViewById<RadioGroup>(R.id.gender)
-        val male = findViewById(R.id.male) as RadioButton
-        val female = findViewById(R.id.female) as RadioButton
 
 
 
